@@ -1,0 +1,30 @@
+.cell{
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cell > div{
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: scale-down;
+  transition: all 320ms;
+}
+.cell > div > img{
+  width: 64px;
+  height: 64px;
+  transition: all 320ms;
+}
+.cell > .capturable{
+  width: 50px;
+  height: 50px;
+  background-color: #ceffcf;
+}
+.cell > .capturable > img{
+  width: 40px;
+  height: 40px;
+}
